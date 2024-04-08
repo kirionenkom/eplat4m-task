@@ -1,0 +1,24 @@
+.deleteWidget {
+    margin: 3px 3px 3px auto;
+    padding: 4px 0;
+    background-color: red;
+    background-image: url("./cross.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #5b5b5b;
+    border-radius: 100%;
+    transition: all ease-in 0.1s;
+    cursor: pointer;
+    @media (max-width: 600px) {
+        width: 15px;
+        height: 15px;
+        background-size: 10px 10px;
+    }
+}
+
+.deleteWidget:hover {
+    transform: scale(1.05);
+}

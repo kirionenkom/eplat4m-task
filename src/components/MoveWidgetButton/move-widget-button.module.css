@@ -1,0 +1,39 @@
+.moveWidget {
+    margin: 3px;
+    padding: 4px 0;
+    background-color: green;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #5b5b5b;
+    border-radius: 100%;
+    transition: all ease-in 0.1s;
+    cursor: pointer;
+    @media (max-width: 600px) {
+        width: 15px;
+        height: 15px;
+        background-size: 10px 10px;
+    }
+}
+
+.left {
+    background-image: url("./arrow-left.png");
+}
+
+.right {
+    background-image: url("./arrow-right.png");
+}
+
+.moveWidget:hover {
+    transform: scale(1.05);
+}
+
+.moveWidget:disabled {
+    opacity: 0.5;
+}
+
+.moveWidget:disabled:hover {
+    transform: scale(1);
+}

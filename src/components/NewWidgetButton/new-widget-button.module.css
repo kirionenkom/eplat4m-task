@@ -1,0 +1,72 @@
+.newWidgetButton {
+    box-sizing: border-box;
+    padding: 4px 0;
+    background-color: #2f81fd;
+    background-image: url("./plus.png");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    border: 1px solid #5b5b5b;
+    border-radius: 10px;
+    transition: all ease-in 0.1s;
+    margin: auto 10px 10px;
+}
+
+.newWidgetButton:hover {
+    transform: scale(1.01);
+}
+
+.newWidgetForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: white;
+    border: 1px solid #5b5b5b;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.newWidgetForm select {
+    margin: 5px 0;
+    width: 100%;
+    padding: 3px;
+    border: 2px solid #797979;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.newWidgetForm h3 {
+    margin: 5px 0;
+    padding: 0;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.newWidgetForm p {
+    margin: 5px 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.newWidgetForm button {
+    margin: 10px 0 0 0;
+    padding: 5px 10px;
+    background-color: #2f81fd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 18px;
+    cursor: pointer;
+    transition: opacity ease-in 0.1s;
+}
+
+.newWidgetForm button:hover {
+    opacity: 0.8;
+}
+
